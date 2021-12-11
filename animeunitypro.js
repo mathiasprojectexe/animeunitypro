@@ -14,6 +14,6 @@ function skipIntroBtn(){
     videoPro.currentTime += 86;
 }
 
-window.onload = function(){
+window.onload = async function(){
     createSkipBtn();
 }
