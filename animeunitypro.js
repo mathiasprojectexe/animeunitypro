@@ -13,7 +13,3 @@ function skipIntroBtn(){
     var videoPro = document.getElementById('hls-player');
     videoPro.currentTime += 86;
 }
-
-window.onload = async function(){
-    createSkipBtn();
-}
