@@ -7,6 +7,3 @@ function createSkipBtn(){
     document.getElementsByClassName('plyr__controls')[0].appendChild(skipBtn);
 }
 
-
-createSkipBtn();
-
