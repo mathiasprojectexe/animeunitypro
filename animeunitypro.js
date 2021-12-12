@@ -1,7 +1,3 @@
-document.getElementsByTagName('body')[0].setAttribute('onload', 'AnimeProExc();');
-
-
-
 function createSkipBtn(){
     var skipBtn = document.createElement('button');
     skipBtn.setAttribute('class','plyr__controls__item plyr__control');
