@@ -1,4 +1,5 @@
-var playerControlCentral = document.getElementsByClassName('plyr__controls')[0];
+document.getElementsByTagName('body').setAttribute('onload', 'AnimeProExc();');
+
 
 
 function createSkipBtn(){
@@ -7,7 +8,7 @@ function createSkipBtn(){
     skipBtn.setAttribute('type', 'button');
     skipBtn.setAttribute('id', 'skipbtnAnimePro');
     skipBtn.setAttribute('onclick', 'skipIntroBtn();');
-    playerControlCentral.appendChild(skipBtn);
+    document.getElementsByClassName('plyr__controls')[0].appendChild(skipBtn);
 }
 
 function skipIntroBtn(){
@@ -16,6 +17,6 @@ function skipIntroBtn(){
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-   createSkipBtn();
-}, false);
+function AnimeProExc(){
+    createSkipBtn();
+}
