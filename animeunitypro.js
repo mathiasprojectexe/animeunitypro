@@ -1,4 +1,4 @@
-document.getElementsByTagName('body').setAttribute('onload', 'AnimeProExc();');
+document.getElementsByTagName('body')[0].setAttribute('onload', 'AnimeProExc();');
 
 
 
