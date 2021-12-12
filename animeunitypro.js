@@ -16,8 +16,6 @@ function skipIntroBtn(){
 }
 
 
-
-
-playerControlCentral.onload = function(){
-    createSkipbtn();
-}
+playerControlCentral.addEventListener("load", function(){
+    createSkipBtn();
+});
