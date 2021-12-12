@@ -4,6 +4,7 @@ function createSkipBtn(){
     skipBtn.setAttribute('type', 'button');
     skipBtn.setAttribute('id', 'skipbtnAnimePro');
     skipBtn.setAttribute('onclick', 'skipIntroBtn();');
+    document.getElementByClassName('plyr__controls').appendChild(skipBtn);
 }
 
 function skipIntroBtn(){
